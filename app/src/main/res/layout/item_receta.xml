@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="TextView"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/categorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColorLink="@android:color/holo_blue_dark"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boton_modif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:text="modificar" />
+
+        <Button
+            android:id="@+id/boton_borrar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:drawableLeft="@android:drawable/ic_menu_delete"
+            android:text="Borrar" />
+
+    </LinearLayout>
+
+    </LinearLayout>
